@@ -1,11 +1,13 @@
 ## Crypo Price Discord Webhook
 
-WIP
+Sends a webhook to my Discord server every 24 hours, that displays the current price of BTC in US dollars.
 
-- Sends Updated BTC price to discord as a webhook
+### Features
 
-### Currently Working On
+- Containerized application using Docker to run
+- Cronjob runs the script every 24 hours
 
-- Containerizing the app
-- Cron for scheduling
+### WIP
 
+- Build/deploy CI/CD with Github Actions
+- Deployment on DigitalOcean Droplet
